@@ -1,0 +1,58 @@
+* {
+  padding: 0px;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  color: goldenrod;
+}
+
+header {
+  background: url("images/slide1.jpg") 0 0/cover;
+  position: relative;
+  height: 100vh;
+}
+
+.header-content {
+  width: 600px;
+  margin: auto;
+  padding: 200px 0 0 0;
+  text-align: center;
+}
+.header-content h1 {
+  font-size: 36px;
+  font-weight: 300;
+  margin: 10px;
+}
+
+.typed {
+  font-size: 32px;
+  font-weight: 300;
+}
+
+.header-nav {
+  width: 980px;
+  margin: auto;
+}
+.header-nav nav {
+  display: flex;
+  justify-content: space-between;
+  line-height: 3;
+}
+.header-nav nav div ul li {
+  list-style: none;
+  display: inline;
+  line-height: 5;
+  padding: 14px 10px;
+}
+.header-nav nav div ul li a {
+  text-decoration: none;
+}
+
+.overlay {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+}

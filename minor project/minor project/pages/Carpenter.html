@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>Carpanter</title>
+    <script src="../js/app.js" defer></script>
+    <link rel="stylesheet" href="../style/style.css">
+</head>
+
+<body>
+    <header class="container">
+
+
+        <nav class="navigation">
+
+            <!-- Logo -->
+            <div class="logo">
+                <img src="../images/Labour.png">
+            </div>
+
+            <!-- Navigation -->
+            <ul class="menu-list">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/index.html">About</a></li>
+                <li><a href="/index.html">Services</a></li>
+                <li><a href="/index.html">Category</a></li>
+                <li><a href="/index.html">Contact</a></li>
+            </ul>
+
+            <div class="humbarger">
+                <div class="bar"></div>
+                <div class="bar2 bar"></div>
+                <div class="bar"></div>
+            </div>
+        </nav>
+    </header>
+    <!--info-->
+    <div class="container info-content">
+        <div class="info-img"> <img src="../images/cat2.jpg"></div>
+        <div class="info">
+            <h3>Carpanter</h3>
+            <p><span>Hire time:</span> 11:00AM to 06:00PM.</p>
+            <p><span>Area Range:</span> 10km.</p>
+            <div>
+                <h4>Carpanter Responsibilities:</h4>
+                <ul>
+                    <li>
+                        <p>Perform work in accordance with safety best practices.</p>
+                    </li>
+                    <li>
+                        <p>Maintain tools and equipment in safe operating condition.</p>
+                    </li>
+                    <li>
+                        <p>Conduct building inspections and identify needed repairs.</p>
+                    </li>
+                    <li>
+                        <p>Install, maintain, and repair a variety of products, ranging from cabinets to insulation to
+                            tile to drywall.</p>
+                    </li>
+                    <li>
+                        <p>Cut, shape, and alter materials as needed Build doors, cabinets, and windows.
+                        </p>
+
+                    </li>
+
+                </ul>
+
+            </div>
+            <button class="hire-btn" id="contact-btn">
+                Contact Now
+            </button>
+        </div>
+    </div>
+    <section class="container">
+        <div class="details">
+            <form>
+
+                <input type="text" placeholder="First Name" id="fisrtname" class="fulName" required>
+
+                <input type="text" placeholder="Last Name" id="lastname" class="fulName" required>
+                <input type="text" placeholder="Street Address" id="address" required>
+                <input type="text" placeholder="Town/City" id="city" required>
+                <select name=slist>
+                    <option value="">Select State</option>
+                    <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+                    <option value="Andhra Pradesh">Andhra Pradesh</option>
+                    <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                    <option value="Assam">Assam</option>
+                    <option value="Bihar">Bihar</option>
+                    <option value="Chandigarh">Chandigarh</option>
+                    <option value="Chhattisgarh">Chhattisgarh</option>
+                    <option value="Dadra and Nagar Haveli">Dadra and Nagar Haveli</option>
+                    <option value="Daman and Diu">Daman and Diu</option>
+                    <option value="Delhi">Delhi</option>
+                    <option value="Goa">Goa</option>
+                    <option value="Gujarat">Gujarat</option>
+                    <option value="Haryana">Haryana</option>
+                    <option value="Himachal Pradesh">Himachal Pradesh</option>
+                    <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+                    <option value="Jharkhand">Jharkhand</option>
+                    <option value="Karnataka">Karnataka</option>
+                    <option value="Kerala">Kerala</option>
+                    <option value="Lakshadweep">Lakshadweep</option>
+                    <option value="Madhya Pradesh">Madhya Pradesh</option>
+                    <option value="Maharashtra">Maharashtra</option>
+                    <option value="Manipur">Manipur</option>
+                    <option value="Meghalaya">Meghalaya</option>
+                    <option value="Mizoram">Mizoram</option>
+                    <option value="Nagaland">Nagaland</option>
+                    <option value="Orissa">Orissa</option>
+                    <option value="Pondicherry">Pondicherry</option>
+                    <option value="Punjab">Punjab</option>
+                    <option value="Rajasthan">Rajasthan</option>
+                    <option value="Sikkim">Sikkim</option>
+                    <option value="Tamil Nadu">Tamil Nadu</option>
+                    <option value="Tripura">Tripura</option>
+                    <option value="Uttaranchal">Uttaranchal</option>
+                    <option value="Uttar Pradesh">Uttar Pradesh</option>
+                    <option value="West Bengal">West Bengal</option>
+                </select>
+                <input type="number" placeholder="Pin Code" id="code" required>
+                <input type="number" placeholder="Phone Number" id="phone" class="fulName" required>
+
+                <input type="email" placeholder="Email" id="email" class="fulName" required>
+
+            </form>
+            <button class="hire-btn " id="hire-now">Hire Now</button>
+        </div>
+    </section>
+    <section class="container">
+
+        <div class="contact-form info-contact">
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="text" placeholder="Subject" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea cols="30" rows="10" placeholder="Your Message" required></textarea>
+                <br />
+                <button>Send Message </button>
+            </form>
+        </div>
+    </section>
+    <section class="container">
+        <div class="checkout-detail">
+            <p>Your Name : <span id="fulName"></span></p>
+            <p>Your Address : <span id="Address"></span></p>
+            <p>Your City : <span id="City"></span></p>
+            <p>Your Pin Code : <span id="Code"></span></p>
+            <p>Your Phone Number : <span id="number"></span></p>
+            <p>Your Email : <span id="mail"></span></p>
+
+            <p style="text-align: center; color: #f2ae42; ">Thanks for using our Website</p>
+        </div>
+    </section>
+
+
+
+
+
+    <footer class="container info-footer">
+        <i class="fa fa-instagram" style="font-size:25px"></i>
+        <i class="fa fa-facebook-f" style="font-size:25px"></i>
+        <i class="fa fa-linkedin" style="font-size:25px"></i>
+        <i class="fa fa-twitter" style="font-size:25px"></i>
+        <p>Copyright © 2021 <span><a href="#"> www.example.com</a></span></p>
+
+    </footer>
+
+</body>
+
+</html>
